@@ -3,7 +3,7 @@
 ## 🛠️ Database Setup
 To create the database, use the following SQL file:
 ```bash
-MySqlSetUp.sql
+SetUpSql.sql
 ```
 
 ## 🚀 Running the Server
