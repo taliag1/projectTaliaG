@@ -1,0 +1,44 @@
+body {
+  direction: rtl;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 250px;
+  margin-top: 2rem;
+  opacity: 0.85;
+}
+
+.home-button {
+  background-color: #2a26f9;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #1d1bc5;
+}

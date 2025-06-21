@@ -1,0 +1,10 @@
+h1{
+    color: rgb(42, 38, 249);
+    font-size: 34px;
+   
+}
+*{
+    direction: rtl;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}

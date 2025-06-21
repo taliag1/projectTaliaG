@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <custom-nav></custom-nav>
+    <script src="../nav/nav.js"></script>
+  
+    <section class="container">
+        <div class="register-container">
+            <div class="circle circle-one"></div>
+            <div class="form-container">
+                <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" 
+                     alt="illustration" class="illustration" />
+                <h1 class="opacity">הרשמה</h1>
+                <form>
+                    <input id="firstName" type="text" placeholder="שם פרטי" required />
+                    <div id="nameError" class="error"></div>
+
+                    <input id="lastName" type="text" placeholder="שם משפחה" required />
+                    <div id="lastNameError" class="error"></div>
+
+                    <input id="email" type="email" placeholder="אימייל" required />
+                    <div id="emailError" class="error"></div>
+
+                    <input type="password" id="password" placeholder="סיסמה" required />
+                    <div id="passwordError" class="error"></div>
+                    
+                    <input type="password" id="passVerify" placeholder="אימות סיסמה" required />
+                    <div id="passVerifyError" class="error"></div>
+
+                    <button class="opacity" type="submit">הרשמה</button>
+                    <div class="error" id="err"></div>
+                </form>
+                <div class="register-forget opacity">
+                    <a href="./login">התחברות</a>
+                    <a href="">שכחתי סיסמה</a>
+                </div>
+            </div>
+            <div class="circle circle-two"></div>
+        </div>
+    </section>
+</body>
+<script src="../js/signUp.js"></script>
+</html>

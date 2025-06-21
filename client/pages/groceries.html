@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>המצרכים שלי</title>
+  <link rel="stylesheet" href="../css/groceries.css">
+</head>
+<body>
+  <custom-nav></custom-nav>
+  <script src="../nav/nav.js"></script>
+
+  <h1>רשימת המצרכים</h1>
+
+  <form id="itemForm">
+    <input type="text" id="itemInput" placeholder="הוסף פריט חדש..." required>
+    <button type="submit">➕ הוסף</button>
+  </form>
+
+  <ul id="groceryList"></ul>
+
+  <p id="message" style="color:red;"></p>
+
+  <script src="../js/groceries.js"></script>
+  
+</body>
+</html>
